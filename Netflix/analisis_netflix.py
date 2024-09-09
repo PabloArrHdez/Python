@@ -38,7 +38,7 @@ plt.ylabel('Cantidad')
 plt.show()
 ################################### (grafico lineal)
 datos_filtrados = datos_netflix_limpio[datos_netflix_limpio['release_year'] >= 1990] #filtramos datos a partir de 1990
-cantidad_estrenos = datos_filtrados['release_year'].value_counts().sort_index() #codigo para calcular el numero de estrenos por año
+cantidad_estrenos = datos_filtrados['dated_added'].value_counts().sort_index() #codigo para calcular el numero de estrenos por año
 plt.plot(cantidad_estrenos.index, cantidad_estrenos.values) #codigo para grafico lineal
 plt.xlabel('Año')
 plt.ylabel('Estrenos')
