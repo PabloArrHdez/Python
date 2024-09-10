@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import datetime
 ###################################
 datos_netflix = pd.read_csv("datos_netflix.csv")
 datos_netflix["show_id"] = datos_netflix["show_id"].str.replace('[s]', ' ', regex=True) #eliminamos la 's' en todos los 'show_id'
@@ -25,21 +26,26 @@ cantidad_total = datos_netflix_limpio['genre'].value_counts() #calculamos el nº
 plt.figure(figsize=(9, 4)) # dimensiones del grafico de barras. 
 cantidad_total.plot(kind='bar')
 plt.xlabel('Genero')
-plt.xticks(rotation=45, ha="right")
+plt.xticks(rotation=45, ha="right") #rotamos los valores del eje X
 plt.ylabel('Cantidad')
 plt.show()
-################################### (grafico de queso*)
+################################### (grafico de barras 2)
 cantidad_total = datos_netflix_limpio['type'].value_counts()
 plt.figure(figsize=(9, 4)) # dimensiones del grafico de barras. 
 cantidad_total.plot(kind='bar')
 plt.xlabel('Tipo')
-plt.xticks(rotation=45, ha="right")
+plt.xticks(rotation=45, ha="right") #rotamos los valores del eje X
 plt.ylabel('Cantidad')
 plt.show()
-################################### (grafico lineal)
-datos_filtrados = datos_netflix_limpio[datos_netflix_limpio['release_year'] >= 1990] #filtramos datos a partir de 1990
-cantidad_estrenos = datos_filtrados['dated_added'].value_counts().sort_index() #codigo para calcular el numero de estrenos por año
-plt.plot(cantidad_estrenos.index, cantidad_estrenos.values) #codigo para grafico lineal
-plt.xlabel('Año')
-plt.ylabel('Estrenos')
+################################### (grafico lineal /modificación de columna date_added)
+datos_netflix_limpio['date_added'] = pd.to_datetime(datos_netflix_limpio['date_added'], format='mixed', errors='coerce') # date_added estaba en un formato incorrecto, por lo que hemos quitado errores y formatos extraños.
+datos_netflix_limpio['date_added'] = pd.to_datetime(datos_netflix_limpio['date_added'], format='%Y-%m-%d') # una vez limpio, hemos transformado la columna date_added a formato fecha
+datos_netflix_limpio['date_added_year'] = datos_netflix_limpio['date_added'].dt.year # de date_added hemos extraido unicamente los años.
+################################### (grafico lineal) 
+peliculas_añadidas = datos_netflix_limpio['date_added_year'].value_counts().sort_index() # hemos calculado la cantidad de veces que aparece ese año en el dataframe.
+plt.figure(figsize=(8, 5)) #dimensiones del grafico lineal
+plt.plot(peliculas_añadidas.index, peliculas_añadidas.values, marker='o', linestyle='-', color='b') # creación del grafico líneal con plot (marker = o => añade marcador)
+plt.xlabel('Años') #titulo al eje X
+plt.ylabel('Cantidad') #titulo al eje y
+plt.grid(True) #añade formato cuadricula.
 plt.show()
