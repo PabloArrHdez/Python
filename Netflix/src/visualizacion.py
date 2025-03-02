@@ -21,7 +21,7 @@ def filmografia_tipo (df_netflix_2):
     plt.show();
 
 def filmografia_año(df_netflix_2):
-    filmografia = df_netflix_2['date_added_year'].value_counts().sort_index() 
+    filmografia = df_netflix_2['data_added_year'].value_counts().sort_index() 
     plt.figure(figsize=(8, 5)) 
     plt.plot(filmografia.index, filmografia.values, marker='o', linestyle='-', color='b') #
     plt.xlabel('Años') 
