@@ -1,3 +1,4 @@
+import pandas as pd
 import matplotlib.pyplot as plt
 
 def peliculas_genero (df_netflix_2):
@@ -21,6 +22,9 @@ def filmografia_tipo (df_netflix_2):
     plt.show();
 
 def filmografia_año(df_netflix_2):
+    df_netflix_2['date_added'] = pd.to_datetime(df_netflix_2['date_added'], format='mixed', errors='coerce') 
+    df_netflix_2['date_added'] = pd.to_datetime(df_netflix_2['date_added'], format='%Y-%m-%d')
+    df_netflix_2['date_added_year'] = df_netflix_2['date_added'].dt.year
     filmografia = df_netflix_2['date_added_year'].value_counts().sort_index() 
     plt.figure(figsize=(8, 5)) 
     plt.plot(filmografia.index, filmografia.values, marker='o', linestyle='-', color='b') #
