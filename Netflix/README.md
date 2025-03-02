@@ -3,9 +3,12 @@
 
 ### Introducción
 Este pequeño análisis de datos muestra la situación temporal de la compañía americana de películas y series Netflix.
-A través de la extracción, limpieza y, posterior análisis y visualización, obtenemos información y conclusiones sobre la cantidad de elementos visuales que Netflix ha adquirido, así como los tipos y los géneros de los mismos. 
+\
+A través de la extracción, limpieza y, posterior análisis y visualización, obtenemos información y conclusiones sobre la cantidad de elementos visuales que Netflix ha adquirido, así como los tipos y los géneros de los mismos.
+\
 Comenzaremos con un gráfico lineal sobre la cantidad de adquisiciones que hizo la plataforma durante el período 2008 – 2021. 
-En segundo lugar, facilitamos un gráfico de barras que muestra los tipos de elementos visuales que adquirió Netflix en el período establecido. 
+En segundo lugar, facilitamos un gráfico de barras que muestra los tipos de elementos visuales que adquirió Netflix en el período establecido.
+\
 Finalizamos el informe con un tercer gráfico de barras con los diferentes géneros que añadió la plataforma en los trece años analizados.
 
 ### Resumen
