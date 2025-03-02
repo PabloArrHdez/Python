@@ -10,6 +10,8 @@ def remplazo_title(df_netflix_1):
     return df_netflix_2
 
 def columna_fecha(df_netflix_2):
+    df_netflix_1 = df_netflix.drop(columns=['description','show_id'])
+    df_netflix_2 = df_netflix_1.replace('[#]','',regex=True)
     df_netflix_2['date_added'] = pd.to_datetime(df_netflix_2['date_added'], format='mixed', errors='coerce') 
     df_netflix_2['date_added'] = pd.to_datetime(df_netflix_2['date_added'], format='%Y-%m-%d')
     df_netflix_2['date_added_year'] = df_netflix_2['date_added'].dt.year
