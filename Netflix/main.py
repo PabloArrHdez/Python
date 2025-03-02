@@ -10,7 +10,7 @@ if __name__== "__main__":
     df_netflix_1 = df_netflix.drop(columns=['description','show_id'])
     df_netflix_2 = df_netflix_1.replace('[#]','',regex=True)
     df_netflix_2_90s = df_netflix_2[(df_netflix_2['release_year']>=1990)&(df_netflix_2['release_year']<=1999)]
-
+    
     exp.descripcion(df_netflix)
 
     trs.columnas_delete(df_netflix)

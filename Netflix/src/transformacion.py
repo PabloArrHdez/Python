@@ -15,7 +15,7 @@ def columna_fecha(df_netflix_2):
     df_netflix_2['date_added'] = pd.to_datetime(df_netflix_2['date_added'], format='mixed', errors='coerce') 
     df_netflix_2['date_added'] = pd.to_datetime(df_netflix_2['date_added'], format='%Y-%m-%d')
     df_netflix_2['date_added_year'] = df_netflix_2['date_added'].dt.year
-    return df_netflix_2['date_added_year']
+    return df_netflix_2
 
 def duracion_90_99 (df_netflix_2):
     df_netflix_2_90s = df_netflix_2[(df_netflix_2['release_year']>=1990)&(df_netflix_2['release_year']<=1999)]
