@@ -98,7 +98,7 @@ Los alojamientos para una sola persona salen más caros por persona que la media
 
 En seis ciudades la larga estancia sale **más barata por noche**: mucho en Roma (0,65 frente a 1,02), Cape Town y Mexico City, moderado en Hong Kong y Bangkok, y casi nada en Rio e Istanbul. En Paris y Sydney no hay diferencia. En New York, donde la larga estancia es la norma, es la corta la que sale algo más barata. No se ha controlado el tipo de alojamiento, que podría explicar parte de estas diferencias.
 
-![Peso de las estancias de 30 noches o más](images/7A_peso_estacias_30.png)
+![Peso de las estancias de 30 noches o más](images/7A_peso_estacias_+30.png)
 
 *Figura 6A. Porcentaje de anuncios con un mínimo de 30 noches o más, por ciudad.*
 
@@ -112,11 +112,11 @@ El **alojamiento completo** es el que menos anuncios sin reseñas tiene en casi 
 
 Según el precio, la relación no es lineal: el mínimo está en los precios medios (28-29 %) y sube en los más baratos (34 %) y, sobre todo, en los más caros (**43 % con el doble de la mediana o más**). No podemos saber con estos datos si esos anuncios están inactivos o simplemente no tienen demanda.
 
-![Porcentaje de anuncios sin reseñas](images/8A_anuncios_sinrese_a.png)
+![Porcentaje de anuncios sin reseñas](images/8A_anuncios_sinreseña.png)
 
 *Figura 7A. Porcentaje de anuncios sin reseñas por ciudad y tipo de alojamiento.*
 
-![Anuncios sin reseñas según precio](images/8B_anuncioscaros_menosrese_as.png)
+![Anuncios sin reseñas según precio](images/8B_anuncioscaros_menosreseñas.png)
 
 *Figura 7B. Porcentaje de anuncios sin reseñas según el precio relativo.*
 
