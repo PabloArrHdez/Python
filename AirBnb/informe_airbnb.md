@@ -33,17 +33,18 @@ Las valoraciones apenas influyen (0,04 a 0,16) y la ubicación lo hace de forma 
 
 La habitación compartida es la más barata en todas partes. Sorprende que la **habitación de hotel** supere al alojamiento completo en cinco ciudades (Bangkok, Cape Town, Mexico City, New York y Paris), aunque esta categoría tiene pocos anuncios.
 
-![Correlación de cada variable con el precio, por ciudad](images/1A_correlacion_variable_precio.png)
-
 *Figura 1A. Correlación de Spearman entre el precio y cada variable, por ciudad.*
 
-![Precio según capacidad](images/1B_precio_capacidad.png)
+![Correlación de cada variable con el precio, por ciudad](images/1A_correlacion_variable_precio.png)
 
 *Figura 1B. Precio relativo a la mediana de la ciudad según el número de huéspedes.*
 
-![Precio mediano por tipo de alojamiento](images/1C_precio_mediano_alojamiento.png)
+![Precio según capacidad](images/1B_precio_capacidad.png)
 
 *Figura 1C. Precio mediano por tipo de alojamiento (moneda local de cada ciudad).*
+
+![Precio mediano por tipo de alojamiento](images/1C_precio_mediano_alojamiento.png)
+
 
 ## 2. ¿Dónde está la mejor relación valoración/precio?
 
