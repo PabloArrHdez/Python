@@ -1,6 +1,6 @@
 # Análisis de anuncios de Airbnb en 10 ciudades
 
-Análisis exploratorio de 279712 anuncios de Airbnb en Bangkok, Cape Town, Hong Kong, Istanbul, Mexico City, New York, Paris, Rio de Janeiro, Roma y Sydney.
+Análisis exploratorio de 279.712 anuncios de Airbnb en Bangkok, Cape Town, Hong Kong, Istanbul, Mexico City, New York, Paris, Rio de Janeiro, Roma y Sydney.
 
 ## Resumen
 
@@ -52,13 +52,14 @@ A nivel de barrio, la relación entre precio y puntuación calidad-precio es dé
 
 Entre los barrios más baratos que su ciudad con puntuación en el 25 % superior, destaca **Cape Town** (siete de los diez primeros), seguida de New York (Woodhaven y Bay Ridge) y Mexico City (La Magdalena Contreras). Las puntuaciones del top 10 van de 9,61 a 9,77, diferencias pequeñas, por lo que el orden exacto debe leerse con prudencia.
 
+*Figura 2A. Precio relativo y puntuación calidad-precio de cada barrio (mínimo 50 anuncios con valoración).*
+
 ![Relación valoración/precio por barrio](images/2A_relacion_calidad_precio.png)
 
-*Figura 2A. Precio relativo y puntuación calidad-precio de cada barrio (mínimo 50 anuncios con valoración).*
+*Figura 2B. Los diez barrios más baratos que su ciudad con mejor puntuación calidad-precio.*
 
 ![Top 10 barrios con mejor calidad-precio](images/2B_top10_barrios_baratos.png)
 
-*Figura 2B. Los diez barrios más baratos que su ciudad con mejor puntuación calidad-precio.*
 
 ## 3. ¿Se paga por la ubicación?
 
@@ -66,13 +67,14 @@ Los mapas muestran que, en ciudades como Paris y Roma, los precios más altos se
 
 A nivel de barrio, existe una relación **moderada y positiva** entre la puntuación de ubicación y el precio relativo (Spearman = 0,47). Es una asociación, no prueba que la ubicación cause el precio. La relación es más débil a nivel de anuncio individual (0,02 a 0,23), porque al agrupar por barrio se promedia gran parte del ruido.
 
+*Figura 3A. Precio relativo a la mediana de la ciudad, por zonas.*
+
 ![Mapa de precios por ciudad](images/3A_mapa_precio_ciudad.png)
 
-*Figura 3A. Precio relativo a la mediana de la ciudad, por zonas.*
+*Figura 3B. Puntuación de ubicación frente a precio relativo; cada punto es un barrio.*
 
 ![Ubicación frente a precio por barrio](images/3B_puntuacion_precio.png)
 
-*Figura 3B. Puntuación de ubicación frente a precio relativo; cada punto es un barrio.*
 
 ## 4. ¿Cuánto cuesta cada huésped?
 
@@ -81,17 +83,19 @@ Los alojamientos para una sola persona salen más caros por persona que la media
 - **Descuento por tamaño** en seis ciudades (Bangkok, Hong Kong, Istanbul, Mexico City, New York y Roma): el precio por huésped baja hasta 0,55-0,79 veces la mediana en los alojamientos de siete o más.
 - **Forma de U** en cuatro (Cape Town, Sydney, Paris y Rio): el mínimo está en 3-4 huéspedes y vuelve a subir en los muy grandes (1,51 en Cape Town y 1,47 en Sydney), posiblemente por villas o casas de lujo.
 
+*Figura 4. Precio por huésped relativo a la mediana de la ciudad, según capacidad.*
+
 ![Precio por huésped según capacidad](images/4_precio_huesped.png)
 
-*Figura 4. Precio por huésped relativo a la mediana de la ciudad, según capacidad.*
 
 ## 5. ¿Qué puntuación pesa más en la valoración global?
 
 **Limpieza** (0,59) y **calidad-precio** (0,61) tienen un peso similar en la valoración global, mientras que la **ubicación** pesa menos en todas las ciudades (0,25 a 0,44). Cambia según la ciudad: la limpieza destaca más en Hong Kong, Rio y Mexico City, y la calidad-precio en Bangkok y Roma. Solo se analizaron tres de las seis puntuaciones parciales, y estas están relacionadas entre sí, por lo que la correlación no mide importancia causal.
 
+*Figura 5. Correlación de Spearman entre la valoración global y las puntuaciones de limpieza, ubicación y calidad-precio.*
+
 ![Peso de cada puntuación en la valoración global](images/5_peso_puntuacion.png)
 
-*Figura 5. Correlación de Spearman entre la valoración global y las puntuaciones de limpieza, ubicación y calidad-precio.*
 
 ## 6. El mercado de larga estancia
 
@@ -99,13 +103,14 @@ Los alojamientos para una sola persona salen más caros por persona que la media
 
 En seis ciudades la larga estancia sale **más barata por noche**: mucho en Roma (0,65 frente a 1,02), Cape Town y Mexico City, moderado en Hong Kong y Bangkok, y casi nada en Rio e Istanbul. En Paris y Sydney no hay diferencia. En New York, donde la larga estancia es la norma, es la corta la que sale algo más barata. No se ha controlado el tipo de alojamiento, que podría explicar parte de estas diferencias.
 
+*Figura 6A. Porcentaje de anuncios con un mínimo de 30 noches o más, por ciudad.*
+
 ![Peso de las estancias de 30 noches o más](images/7A_peso_estacias_+30.png)
 
-*Figura 6A. Porcentaje de anuncios con un mínimo de 30 noches o más, por ciudad.*
+*Figura 6B. Precio mediano relativo de los anuncios de corta y larga estancia.*
 
 ![Precio de la larga estancia frente a la corta](images/7B_precio_largaestancia.png)
 
-*Figura 6B. Precio mediano relativo de los anuncios de corta y larga estancia.*
 
 ## 7. Anuncios sin reseñas
 
@@ -113,13 +118,14 @@ El **alojamiento completo** es el que menos anuncios sin reseñas tiene en casi 
 
 Según el precio, la relación no es lineal: el mínimo está en los precios medios (28-29 %) y sube en los más baratos (34 %) y, sobre todo, en los más caros (**43 % con el doble de la mediana o más**). No podemos saber con estos datos si esos anuncios están inactivos o simplemente no tienen demanda.
 
+*Figura 7A. Porcentaje de anuncios sin reseñas por ciudad y tipo de alojamiento.*
+
 ![Porcentaje de anuncios sin reseñas](images/8A_anuncios_sinreseña.png)
 
-*Figura 7A. Porcentaje de anuncios sin reseñas por ciudad y tipo de alojamiento.*
+*Figura 7B. Porcentaje de anuncios sin reseñas según el precio relativo.*
 
 ![Anuncios sin reseñas según precio](images/8B_anuncioscaros_menosreseñas.png)
 
-*Figura 7B. Porcentaje de anuncios sin reseñas según el precio relativo.*
 
 ## Conclusiones
 
