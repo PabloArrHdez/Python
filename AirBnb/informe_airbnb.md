@@ -63,9 +63,13 @@ Entre los barrios más baratos que su ciudad con puntuación en el 25 % superior
 
 ![Relación valoración/precio por barrio](images/2A_relacion_calidad_precio.png)
 
+La relación entre precio y valoración calidad-precio por barrio es débil: hay barrios caros (1,2× a 1,5×) con puntuaciones de 9,6, y baratos con 9,0. Lo que sí se ve es que los más baratos tienen más dispersión. La escala va de 0 a 10, como indica el diccionario.
+
 *Figura 2B. Los diez barrios más baratos que su ciudad con mejor puntuación calidad-precio.*
 
 ![Top 10 barrios con mejor calidad-precio](images/2B_top10_barrios_baratos.png)
+
+Siete de los diez son de Cape Town (Wards 84, 21, 15, 112, 5, 58 y 73), dos de New York (Woodhaven y Bay Ridge) y uno de Mexico City (La Magdalena Contreras). Las puntuaciones van de 9,61 a 9,77, diferencias pequeñas, así que el orden concreto es poco robusto. Más sólido es decir que Cape Town concentra los barrios más baratos con muy buena valoración. Para LinkedIn, los "Ward 84" no dicen nada a un lector sin contexto, por lo que es mejor explicarlo o mostrar el ranking por ciudad.
 
 
 ## 3. ¿Se paga por la ubicación?
