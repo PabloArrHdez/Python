@@ -107,12 +107,14 @@ Los alojamientos para una sola persona salen más caros por persona que la media
 
 ## 5. ¿Qué puntuación pesa más en la valoración global?
 
-**Limpieza** (0,59) y **calidad-precio** (0,61) tienen un peso similar en la valoración global, mientras que la **ubicación** pesa menos en todas las ciudades (0,25 a 0,44). Cambia según la ciudad: la limpieza destaca más en Hong Kong, Rio y Mexico City, y la calidad-precio en Bangkok y Roma. Solo se analizaron tres de las seis puntuaciones parciales, y estas están relacionadas entre sí, por lo que la correlación no mide importancia causal.
+ Solo se analizaron tres de las seis puntuaciones parciales, y estas están relacionadas entre sí, por lo que la correlación no mide importancia causal.
 
 *Figura 5. Correlación de Spearman entre la valoración global y las puntuaciones de limpieza, ubicación y calidad-precio.*
 
 ![Peso de cada puntuación en la valoración global](images/5_peso_puntuacion.png)
 
+- **Limpieza y calidad-precio** van casi a la par: 0,59 y 0,61 con todas las ciudades juntas. Cambia según la ciudad: la limpieza pesa más en Hong Kong, Rio de Janeiro y Ciudad de Mexico, y la calidad-precio en Bangkok y Roma.
+- La **ubicación** pesa claramente menos en todas las ciudades (de 0,25 en Rio a 0,44 en Istanbul).
 
 ## 6. El mercado de larga estancia
 
