@@ -93,6 +93,8 @@ Los barrios con mejor puntuación de ubicación tienden a ser más caros, con un
 
 ## 4. ¿Cuánto cuesta cada huésped?
 
+La **capacidad** (huéspedes y dormitorios) es el factor dominante del precio, y la ubicación el segundo. Las valoraciones apenas influyen.
+
 *Figura 4. Precio por huésped relativo a la mediana de la ciudad, según capacidad.*
 
 ![Precio por huésped según capacidad](images/4_precio_huesped.png)
