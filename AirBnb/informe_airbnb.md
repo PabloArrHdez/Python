@@ -116,42 +116,45 @@ Los alojamientos para una sola persona salen más caros por persona que la media
 - **Limpieza y calidad-precio** van casi a la par: 0,59 y 0,61 con todas las ciudades juntas. Cambia según la ciudad: la limpieza pesa más en Hong Kong, Rio de Janeiro y Ciudad de Mexico, y la calidad-precio en Bangkok y Roma.
 - La **ubicación** pesa claramente menos en todas las ciudades (de 0,25 en Rio a 0,44 en Istanbul).
 
+
 ## 6. El mercado de larga estancia
-
-**New York** es un caso aparte: el 66,8 % de sus anuncios exige 30 noches o más. En el resto de ciudades el peso va del 1,6 % al 11,3 %. En Hong Kong el mercado se concentra en mínimos de 28 noches, justo por debajo de nuestro corte, por lo que su cifra (10,8 %) queda por debajo de la realidad.
-
-En seis ciudades la larga estancia sale **más barata por noche**: mucho en Roma (0,65 frente a 1,02), Cape Town y Mexico City, moderado en Hong Kong y Bangkok, y casi nada en Rio e Istanbul. En Paris y Sydney no hay diferencia. En New York, donde la larga estancia es la norma, es la corta la que sale algo más barata. No se ha controlado el tipo de alojamiento, que podría explicar parte de estas diferencias.
 
 *Figura 6A. Porcentaje de anuncios con un mínimo de 30 noches o más, por ciudad.*
 
 ![Peso de las estancias de 30 noches o más](images/7A_peso_estacias_+30.png)
 
+**Nueva York** es un caso aparte: el 66,8 % de sus anuncios exige 30 noches o más. En el resto de ciudades el peso va del 1,6 % al 11,3 %. En Hong Kong el mercado se concentra en mínimos de 28 noches, justo por debajo de nuestro corte, por lo que su cifra (10,8 %) queda por debajo de la realidad.
+
 *Figura 6B. Precio mediano relativo de los anuncios de corta y larga estancia.*
 
 ![Precio de la larga estancia frente a la corta](images/7B_precio_largaestancia.png)
 
+- En seis ciudades la larga estancia sale **más barata por noche**: mucho en Roma (0,65 frente a 1,02), Cape Town y Ciudad de Mexico, moderado en Hong Kong y Bangkok, y casi nada en Rio y Estanbul. 
+- En Paris y Sydney no hay diferencia. 
+- En Nueva York, donde la larga estancia es la norma, es la corta la que sale algo más barata. No se ha controlado el tipo de alojamiento, que podría explicar parte de estas diferencias.
+
 
 ## 7. Anuncios sin reseñas
-
-El **alojamiento completo** es el que menos anuncios sin reseñas tiene en casi todas las ciudades (del 18 % en Roma al 43 % en Istanbul), mientras que las habitaciones privadas y compartidas se disparan en varias (en Istanbul, 66 % y 81 %). New York es la más uniforme (23 % a 31 %).
-
-Según el precio, la relación no es lineal: el mínimo está en los precios medios (28-29 %) y sube en los más baratos (34 %) y, sobre todo, en los más caros (**43 % con el doble de la mediana o más**). No podemos saber con estos datos si esos anuncios están inactivos o simplemente no tienen demanda.
 
 *Figura 7A. Porcentaje de anuncios sin reseñas por ciudad y tipo de alojamiento.*
 
 ![Porcentaje de anuncios sin reseñas](images/8A_anuncios_sinreseña.png)
 
+El **alojamiento completo** es el que menos anuncios sin reseñas tiene en casi todas las ciudades (del 18 % en Roma al 43 % en Estanbul), mientras que las habitaciones privadas y compartidas se disparan en varias (en Estanbul, 66 % y 81 %). Nueva York es la más uniforme (23 % a 31 %).
+
 *Figura 7B. Porcentaje de anuncios sin reseñas según el precio relativo.*
 
 ![Anuncios sin reseñas según precio](images/8B_anuncioscaros_menosreseñas.png)
+
+Según el precio, la relación no es lineal: el mínimo está en los precios medios (28-29 %) y sube en los más baratos (34 %) y, sobre todo, en los más caros (**43 % con el doble de la mediana o más**). No podemos saber con estos datos si esos anuncios están inactivos o simplemente no tienen demanda.
 
 
 ## Conclusiones
 
 1. El tamaño del alojamiento (huéspedes y dormitorios) es el principal determinante del precio en todas las ciudades.
 2. La ubicación aporta un efecto moderado; la valoración, casi ninguno.
-3. Las dinámicas de cada mercado difieren: New York se rige por la larga estancia, y las ciudades se reparten entre descuento por tamaño y precios premium en los alojamientos grandes.
-4. Hay oportunidades de buena relación calidad-precio en barrios concretos de Cape Town, New York y Mexico City.
+3. Las dinámicas de cada mercado difieren: Nueva York se rige por la larga estancia, y las ciudades se reparten entre descuento por tamaño y precios premium en los alojamientos grandes.
+4. Hay oportunidades de buena relación calidad-precio en barrios concretos de Cape Town, Nueva York y Ciudad de Mexico.
 
 ## Limitaciones
 
