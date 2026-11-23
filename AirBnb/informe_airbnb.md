@@ -18,12 +18,12 @@ La base de datos ha sido facilitada por Maven Analytics (https://mavenanalytics.
 
 **Limpieza aplicada:**
 
-- Se eliminaron 165 anuncios sin datos de anfitrión y 113 con precio 0.
-- Los precios atípicos se detectaron por ciudad con el método IQR sobre el logaritmo del precio, y se eliminaron [X] anuncios.
+- Se eliminaron 165 anuncios sin datos de anfitrión y 113 con precio 0, además de 16 columnas innecesarias para el análisis.
+- Los precios atípicos se detectaron por ciudad con el método IQR sobre el logaritmo del precio, y se eliminaron 641 anuncios.
 - Se eliminaron los mínimos de noches superiores a 365 (valores no realistas).
 - Los dormitorios vacíos (10,5 %) se imputaron con la mediana por ciudad, tipo de alojamiento y capacidad.
 - Las categorías de tipo de propiedad con menos de 500 anuncios se agruparon en «Others».
-- La columna `district` se descartó porque solo está informada en New York.
+- La columna `district` se descartó porque solo está informada en Nueva York.
 
 **Importante:** los precios están expresados en la **moneda local de cada ciudad**. Por eso las comparaciones entre ciudades se hacen con un precio relativo (1,00 = mediana de la ciudad), no con valores absolutos.
 
@@ -33,20 +33,25 @@ La **capacidad** es el factor dominante: la correlación del precio con huésped
 
 Las valoraciones apenas influyen (0,04 a 0,16) y la ubicación lo hace de forma moderada (hasta 0,23 en Roma). En Hong Kong, un mínimo de noches más alto se asocia a precios menores (-0,24).
 
-La habitación compartida es la más barata en todas partes. Sorprende que la **habitación de hotel** supere al alojamiento completo en cinco ciudades (Bangkok, Cape Town, Mexico City, New York y Paris), aunque esta categoría tiene pocos anuncios.
+La habitación compartida es la más barata en todas partes. Sorprende que la **habitación de hotel** supere al alojamiento completo en cinco ciudades (Bangkok, Cape Town, Ciudad de Mexico, Nueva York y Paris), aunque esta categoría tiene pocos anuncios.
 
 *Figura 1A. Correlación de Spearman entre el precio y cada variable, por ciudad.*
 
 ![Correlación de cada variable con el precio, por ciudad](images/1A_correlacion_variable_precio.png)
 
+La capacidad manda: huéspedes y dormitorios tienen la correlación más alta en las 10 ciudades (entre 0,31 y 0,68), sobre todo en Sydney (0,68 y 0,63) y Cape Town (0,67 y 0,66). Las valoraciones casi no mueven el precio (0,04 a 0,16 la global, y cercana a 0 la de calidad-precio). La ubicación influye algo más en Roma (0,23), Nueva York (0,17) y Sydney y Paris (0,16 y 0,15). Un detalle: Hong Kong es la única con correlación claramente negativa en minimum_nights (-0,24).
+
 *Figura 1B. Precio relativo a la mediana de la ciudad según el número de huéspedes.*
 
 ![Precio según capacidad](images/1B_precio_capacidad.png)
+
+El precio relativo se dispara con el tamaño: con 1 huésped se paga entre 0,33 y 0,59 veces la mediana de la ciudad, y con 7 o más entre 2,1 y 4,9 veces. Sydney (4,89) y Cape Town (4,45) son las más empinadas y Roma la más plana (2,12). Hong Kong se estanca: 5-6 y 7+ casi igualan (2,43 y 2,45)
 
 *Figura 1C. Precio mediano por tipo de alojamiento (moneda local de cada ciudad).*
 
 ![Precio mediano por tipo de alojamiento](images/1C_precio_mediano_alojamiento.png)
 
+La habitación compartida es la más barata en todas partes. Pero el alojamiento completo no siempre es el más caro: en Bangkok, Cape Town, Mexico City, Nueva York y Paris lo supera la habitación de hotel, y en Paris casi la duplica (160 frente a 82). Esa categoría tiene pocos anuncios, así que conviene decir cuántos son antes de sacar conclusiones fuertes.
 
 ## 2. ¿Dónde está la mejor relación valoración/precio?
 
