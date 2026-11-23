@@ -9,12 +9,12 @@ La base de datos ha sido facilitada por Maven Analytics (https://mavenanalytics.
 - **La capacidad es lo que más explica el precio**: huéspedes y dormitorios tienen la mayor correlación con el precio en las 10 ciudades. La ubicación influye en segundo lugar y las valoraciones casi no influyen.
 - **El tamaño dispara el precio total, pero no siempre el precio por persona**: en seis ciudades el precio por huésped baja en alojamientos grandes; en otras cuatro vuelve a subir en los muy grandes.
 - **Ubicación, calidad y limpieza**: los barrios mejor puntuados en ubicación tienden a ser más caros, y en la valoración global pesan más la limpieza y la relación calidad-precio que la ubicación.
-- **New York es un mercado distinto**: dos de cada tres anuncios exigen 30 noches o más.
-- **Los alojamientos completos acumulan más reseñas** que las habitaciones, sobre todo en Istanbul.
+- **Nueva York es un mercado distinto**: dos de cada tres anuncios exigen 30 noches o más.
+- **Los alojamientos completos acumulan más reseñas** que las habitaciones, sobre todo en Estanbul.
 
 ## Datos y preparación
 
-**Fuente:** archivo Listings.csv (279.712 anuncios y 33 columnas). Se conservaron las columnas relevantes para el análisis y se descartaron las de texto libre o poco informativas.
+**Fuente:** archivo Listings.csv (279.712 anuncios y 33 columnas), facilitado por Maven Analytics (https://mavenanalytics.io/), en particular por **Chris Bruehl**. Se conservaron las columnas relevantes para el análisis y se descartaron las de texto libre o poco informativas.
 
 **Limpieza aplicada:**
 
