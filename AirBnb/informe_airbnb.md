@@ -1,6 +1,8 @@
 # Análisis de anuncios de Airbnb en 10 ciudades
 
-Análisis exploratorio de 279.712 anuncios de Airbnb en Bangkok, Cape Town, Hong Kong, Istanbul, Mexico City, New York, Paris, Rio de Janeiro, Roma y Sydney.
+Análisis exploratorio de 279.712 anuncios de Airbnb en ciudades como Bangkok, Cape Town, Hong Kong, Estanbul, Ciudad de Mexico, Nueva York, Paris, Rio de Janeiro, Roma y Sydney.
+
+La base de datos ha sido facilitada por Maven Analytics (https://mavenanalytics.io/), en particular por **Chris Bruehl**.
 
 ## Resumen
 
