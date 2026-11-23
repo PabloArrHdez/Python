@@ -93,14 +93,14 @@ Los barrios con mejor puntuación de ubicación tienden a ser más caros, con un
 
 ## 4. ¿Cuánto cuesta cada huésped?
 
-Los alojamientos para una sola persona salen más caros por persona que la mediana de su ciudad en casi todas partes (0,95 a 1,50). A partir de ahí hay dos patrones:
-
-- **Descuento por tamaño** en seis ciudades (Bangkok, Hong Kong, Istanbul, Mexico City, New York y Roma): el precio por huésped baja hasta 0,55-0,79 veces la mediana en los alojamientos de siete o más.
-- **Forma de U** en cuatro (Cape Town, Sydney, Paris y Rio): el mínimo está en 3-4 huéspedes y vuelve a subir en los muy grandes (1,51 en Cape Town y 1,47 en Sydney), posiblemente por villas o casas de lujo.
-
 *Figura 4. Precio por huésped relativo a la mediana de la ciudad, según capacidad.*
 
 ![Precio por huésped según capacidad](images/4_precio_huesped.png)
+
+Los alojamientos para una sola persona salen más caros por persona que la mediana de su ciudad en casi todas partes (0,95 a 1,50). A partir de ahí hay dos patrones:
+
+- **Descuento por tamaño** en seis ciudades (Bangkok, Hong Kong, Estanbul, Ciudad de Mexico, Nueva York y Roma): el precio por huésped baja hasta 0,55-0,79 veces la mediana en los alojamientos de siete o más.
+- **Forma de U** en cuatro (Cape Town, Sydney, Paris y Rio de Janeiro): el mínimo está en 3-4 huéspedes y vuelve a subir en los muy grandes (1,51 en Cape Town y 1,47 en Sydney), posiblemente por villas o casas de lujo.
 
 
 ## 5. ¿Qué puntuación pesa más en la valoración global?
