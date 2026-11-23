@@ -27,6 +27,7 @@ La base de datos ha sido facilitada por Maven Analytics (https://mavenanalytics.
 
 **Importante:** los precios están expresados en la **moneda local de cada ciudad**. Por eso las comparaciones entre ciudades se hacen con un precio relativo (1,00 = mediana de la ciudad), no con valores absolutos.
 
+
 ## 1. ¿Qué factores explican el precio?
 
 La **capacidad** es el factor dominante: la correlación del precio con huéspedes y dormitorios va de 0,31 a 0,68 y es la más alta en todas las ciudades, sobre todo en Sydney y Cape Town. Con un huésped se paga entre 0,33 y 0,59 veces la mediana de la ciudad; con siete o más, entre 2,1 y 4,9 veces.
@@ -53,6 +54,7 @@ El precio relativo se dispara con el tamaño: con 1 huésped se paga entre 0,33 
 
 La habitación compartida es la más barata en todas partes. Pero el alojamiento completo no siempre es el más caro: en Bangkok, Cape Town, Mexico City, Nueva York y Paris lo supera la habitación de hotel, y en Paris casi la duplica (160 frente a 82). Esa categoría tiene pocos anuncios, así que conviene decir cuántos son antes de sacar conclusiones fuertes.
 
+
 ## 2. ¿Dónde está la mejor relación valoración/precio?
 
 Entre los barrios más baratos que su ciudad con puntuación en el 25 % superior, destaca **Cape Town** (siete de los diez primeros), seguida de Nueva York (Woodhaven y Bay Ridge) y Ciudad de Mexico (La Magdalena Contreras).
@@ -74,15 +76,19 @@ Siete de los diez son de Cape Town (Wards 84, 21, 15, 112, 5, 58 y 73), dos de N
 
 Los mapas muestran que, en ciudades como Paris y Roma, los precios más altos se concentran en el centro y se enfrían hacia la periferia.
 
-A nivel de barrio, existe una relación **moderada y positiva** entre la puntuación de ubicación y el precio relativo (Spearman = 0,47). Es una asociación, no prueba que la ubicación cause el precio. La relación es más débil a nivel de anuncio individual (0,02 a 0,23), porque al agrupar por barrio se promedia gran parte del ruido.
+A nivel de barrio, existe una relación **moderada y positiva** entre la puntuación de ubicación y el precio relativo. Es una asociación, no prueba que la ubicación cause el precio. La relación es más débil a nivel de anuncio individual (0,02 a 0,23), porque al agrupar por barrio se promedia gran parte del ruido.
 
 *Figura 3A. Precio relativo a la mediana de la ciudad, por zonas.*
 
 ![Mapa de precios por ciudad](images/3A_mapa_precio_ciudad.png)
 
+Paris y Roma muestran un núcleo central más caro que se enfría hacia fuera; Nueva York y Sydney tienen zonas concentradas de precios altos. En Hong Kong, Estanbul y Cape Town el mapa sale fragmentado o alargado.
+
 *Figura 3B. Puntuación de ubicación frente a precio relativo; cada punto es un barrio.*
 
 ![Ubicación frente a precio por barrio](images/3B_puntuacion_precio.png)
+
+Los barrios con mejor puntuación de ubicación tienden a ser más caros, con una correlación de Spearman de 0,47: moderada y positiva. Una precisión importante: en la "Figura 1A" la correlación entre ubicación y precio por anuncio era mucho menor (entre 0,02 y 0,23). La diferencia se debe a que al agrupar por barrio se promedia el ruido, lo que hace la relación más nítida. Es una asociación, no prueba que la ubicación cause el precio.
 
 
 ## 4. ¿Cuánto cuesta cada huésped?
