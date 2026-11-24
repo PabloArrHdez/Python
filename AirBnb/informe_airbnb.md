@@ -114,7 +114,7 @@ Los alojamientos para una sola persona salen más caros por persona que la media
 ![Peso de cada puntuación en la valoración global](images/5_peso_puntuacion.png)
 
 - **Limpieza y calidad-precio** van casi a la par: 0,59 y 0,61 con todas las ciudades juntas. Cambia según la ciudad: la limpieza pesa más en Hong Kong, Rio de Janeiro y Ciudad de Mexico, y la calidad-precio en Bangkok y Roma.
-- La **ubicación** pesa claramente menos en todas las ciudades (de 0,25 en Rio a 0,44 en Istanbul).
+- La **ubicación** pesa claramente menos en todas las ciudades (de 0,25 en Rio a 0,44 en Estanbul).
 
 
 ## 6. El mercado de larga estancia
