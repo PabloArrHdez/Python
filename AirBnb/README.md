@@ -1,0 +1,5 @@
+# Descripción #
+
+El proyecto consta de un supuesto caso de análisis de datos, junto con el cálculo de varias medidas y dimensiones, para conocer aspectos de un supuesto caso de una lista de 279.712 anuncios de Airbnb en ciudades como Bangkok, Cape Town, Hong Kong, Estambul, Ciudad de México, Nueva York, París, Río de Janeiro, Roma y Sydney. Tal proyecto muestra diferentes factores que explican el precio del alojamiento AirBnb en las diferentes ciudades, tales como la ubicación del barrio de la ciudad, tipo de alojamiento, cantidad máxima de huéspedes que admite, etc.
+ 
+La adquisición de los datos y puesta en marcha de dicho proyecto ha sido a través de la página web (https://mavenanalytics.io/), en donde el profesional "Chris Bruehl" ha desarrollado este proyecto práctico de lenguaje Python.
