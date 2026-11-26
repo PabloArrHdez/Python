@@ -40,8 +40,7 @@ def heatmap(ax, tabla, cmap, vmin=None, vmax=None, fmt="{:.2f}"):
 plt.show();
 
 
-def graficar_correlacion_precio(listings_exploratory, ciudades):
-    ciudades = sorted(listings_exploratory["city"].unique())
+def graficar_correlacion_precio(listings_exploratory):
     num = {
         "accommodates": "Huéspedes", "bedrooms": "Dormitorios", "minimum_nights": "Noches\nmínimas",
         "review_scores_rating": "Valoración\nglobal", "review_scores_location": "Ubicación",
